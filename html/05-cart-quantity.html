@@ -18,22 +18,22 @@
      let cartQuantity = 0;
      
      function showQuantity() {
-        console.log('Cart Quantity: ' + cartQuantity);
+        console.log(`Cart Quantity: ${cartQuantity}`);
         document.getElementById('number').innerHTML = cartQuantity;
      }
      function addToCart() {
         cartQuantity++;
-        console.log('Added to Cart : ' + cartQuantity + ' item(s)');
+        console.log(`Added to Cart: ${cartQuantity} item(s)`);
         document.getElementById('number').innerHTML = cartQuantity;
      }
      function addTwo() {
         cartQuantity+=2;
-        console.log('Added to Cart : ' + cartQuantity + ' item(s)');
+        console.log(`Added to Cart: ${cartQuantity} item(s)`);
         document.getElementById('number').innerHTML = cartQuantity;
      }
      function addThree() {
         cartQuantity+=3;
-        console.log('Added to Cart : ' + cartQuantity + ' item(s)');
+        console.log(`Added to Cart: ${cartQuantity} item(s)`);
         document.getElementById('number').innerHTML = cartQuantity;
      }
      function resetCart() {
