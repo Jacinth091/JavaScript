@@ -1,0 +1,5 @@
+
+# ignore all these specified file extensions
+*.mp4
+*.jpg
+*.png
